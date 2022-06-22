@@ -1,0 +1,68 @@
+.lacote {
+
+    &__section {
+        margin-bottom: 150px;
+    }
+
+    &__container {
+    }
+
+    &__box {
+
+    }
+
+    &__line {
+        max-width: 975px;
+        width: 100%;
+        height: 15px;
+        background-color: #E5ECF4;
+        position: relative;
+    }
+    &__radius1{
+        width: 95px;
+        height: 95px;
+        background-color:#FCB72B ;
+        border-radius: 50%;
+        position: absolute;
+        top: -40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__radius2{
+        width: 95px;
+        height: 95px;
+        background-color:#FCB72B ;
+        border-radius: 50%;
+        position: absolute;
+        top: -40px;
+        left: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__radius3{
+        width: 95px;
+        height: 95px;
+        background-color:#FCB72B ;
+        border-radius: 50%;
+        position: absolute;
+        top: -40px;
+        left: 950px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .locote{
+
+
+    }
+    
+}
